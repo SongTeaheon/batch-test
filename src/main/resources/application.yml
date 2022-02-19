@@ -1,0 +1,9 @@
+spring:
+  batch:
+    initialize-schema: always
+  datasource:
+    url: jdbc:mysql://localhost:3306/batchdb
+    username: user
+    password: pwd
+    hikari:
+      initialization-fail-timeout: 60000
