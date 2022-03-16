@@ -27,7 +27,7 @@ public class ExecutionContextConfiguration {
     private final ExecutionContextTasklet4 tasklet4;
 
 
-    @Bean
+//    @Bean
     public Job executionContextJob() {
         return jobBuilderFactory.get("ExecutionContextJob")
                 .start(executionContextStep1())
